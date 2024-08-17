@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Navbar() {
-    const [theme, setTheme] = useState('default');
+    const [theme, setTheme] = useState('light');
     const themes = ['light', 'dark', 'retro', 'valentine', 'aqua', 'forest', 'cupcake', 'luxury', 'corporate']; // Array of themes
   const [themeIndex, setThemeIndex] = useState(0); // Default theme
   
