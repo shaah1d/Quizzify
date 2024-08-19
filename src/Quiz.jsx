@@ -88,7 +88,7 @@ function Quiz({ className, score, setScore, category, difficulty }) {
             )}
             {isQuizOver ? (
                 <div className="flex justify-center mt-6 mr-2 ml-2 sm:mr-0 sm:ml-0">
-                    <div className="card bg-primary text-primary-content w-screen">
+                    <div className="card bg-primary text-primary-content">
                         <div className="card-body">
                             <h2 className="card-title">Quiz Over</h2>
                             <p>You've reached the end of the quiz & your score is: {score}</p>
